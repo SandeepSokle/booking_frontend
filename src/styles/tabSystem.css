@@ -1,0 +1,39 @@
+/* Style the tab container */
+.tab-container {
+  margin: 2rem 0rem;
+  gap: 0;
+  /* background-color: #f0f0f0; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+/* Style the tab buttons */
+.tab {
+  cursor: pointer;
+  /* padding: 10px 10px; */
+  /* background-color: #eee; */
+  /* border: 1px solid #ccc; */
+  font-size: 10px;
+  width: auto;
+  height: 100%;
+  padding: 10px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+/* Style the active tab button */
+.tab.active {
+  background-color: #fff;
+  border-bottom: 2px solid #df5c62;
+}
+
+/* Style the tab content */
+.tab-content {
+  margin-top: 10px;
+  padding: 20px;
+  /* background-color: #fff; */
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

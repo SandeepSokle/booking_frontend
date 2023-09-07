@@ -1,0 +1,100 @@
+.personalInfo {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.personalInfoHeader,
+.personalInfoInformation,
+.personalInfoDes,
+.personalInfoForm {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mainButton {
+  border: 1px solid white;
+  margin: 10px;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: flex-start; */
+}
+.bookButton {
+  background-color: white;
+  color: black;
+  height: 100%;
+  width: 4rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cabButton {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 7rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.personalInfoInformation {
+  color: white;
+  /* justify-content: center; */
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.personalInfoDes {
+  color: white;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  height: auto;
+  padding: 10px;
+  font-size: 21px;
+  text-transform: capitalize;
+}
+
+.personalInfoForm {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#input {
+  width: 90%;
+  height: 3rem;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 auto;
+  border: none; /* <-- This thing here */
+  border: solid 1px #ccc;
+  border-radius: 4px;
+}
+
+.nextButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

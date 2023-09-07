@@ -1,0 +1,141 @@
+.bookingInfo {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bookingInfoHeader {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 2px black;
+}
+
+.leftButton {
+  border: 1px solid black;
+  margin: 10px;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: flex-start; */
+}
+.bookingbookButton {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 4rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bookingcabButton {
+  background-color: white;
+  color: black;
+  height: 100%;
+  width: 7rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuButton {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#input {
+  width: 98%;
+  height: 2rem;
+  font-size: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  border: none; /* <-- This thing here */
+  border: solid 1px #ccc;
+  border-radius: 14px;
+}
+
+.getRideInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+.upDownArrow {
+  position: absolute;
+  bottom: 25px;
+  right: 32px;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid rgb(177, 172, 172);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scheduleContainer,
+.checkTerms,
+.buttons {
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+.scheduleLabel {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.checkTerms {
+  margin-top: 0px;
+}
+
+.scheduleDateContainer {
+  display: flex;
+  width: 100%;
+}
+
+.buttons {
+  margin-top: 20px;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.buttonBtn {
+  width: 100%;
+  height: 2rem;
+  border-radius: 10px;
+  outline: none;
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(151, 151, 157, 1) 52%,
+    rgba(16, 17, 17, 1) 100%
+  );
+}
+
+.inputDate {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.inputTime {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
